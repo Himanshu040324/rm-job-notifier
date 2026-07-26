@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'npm'
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
@@ -41,6 +41,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json storageState.json || true
-          git commit -m "chore: update state and jobs snapshot [skip ci]" || exit 0
+          git add data/jobs.json || true
+          git commit -m "chore: update jobs snapshot [skip ci]" || exit 0
           git push
