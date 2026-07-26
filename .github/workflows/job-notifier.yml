@@ -3,7 +3,6 @@ name: RM Job Notifier
 on:
   schedule:
     - cron: "*/15 * * * *"
-
   workflow_dispatch:
 
 jobs:
@@ -18,12 +17,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Install Playwright Chromium
-        run: npx playwright install chromium
+      # Added --with-deps so Playwright installs required Linux dependencies
+      - name: Install Playwright Chromium with system dependencies
+        run: npx playwright install --with-deps chromium
 
       - name: Create environment file
         run: |
@@ -34,3 +35,13 @@ jobs:
 
       - name: Run notifier
         run: npm start
+
+      # Commits updated jobs.json and storageState.json back to repo
+      - name: Save session and updated jobs
+        if: always()
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json storageState.json || true
+          git commit -m "chore: auto-update state and jobs [skip ci]" || exit 0
+          git push
