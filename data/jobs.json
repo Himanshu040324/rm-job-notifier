@@ -1,0 +1,122 @@
+[
+  {
+    "id": "texas-instruments-analog-engineer",
+    "title": "Analog Engineer",
+    "company": "Texas Instruments",
+    "location": "Bangalore",
+    "type": "SIX_MONTH_INTERN_FTE",
+    "salary": "₹75,000/month",
+    "ctc": "45.78 LPA",
+    "applicationWindow": "Jul 25, 2026, 12:15:00 PM – Jul 26, 2026, 1:00:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "siemens-eda-digital-intern",
+    "title": "Digital Intern",
+    "company": "Siemens EDA",
+    "location": "Noida/Bangalore/Hyderabad/Kolkata",
+    "type": "SIX_MONTH_INTERN",
+    "salary": "₹50,000/month",
+    "ctc": "N/A",
+    "applicationWindow": "Jul 22, 2026, 1:10:44 PM – Jul 23, 2026, 1:00:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "siemens-eda-software-intern",
+    "title": "Software Intern",
+    "company": "Siemens EDA",
+    "location": "Noida/Bangalore/Hyderabad/Kolkata",
+    "type": "SIX_MONTH_INTERN",
+    "salary": "₹50,000/month",
+    "ctc": "N/A",
+    "applicationWindow": "Jul 22, 2026, 12:56:44 PM – Jul 23, 2026, 1:00:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "siemens-eda-software-and-digital-intern",
+    "title": "Software and Digital Intern",
+    "company": "Siemens EDA",
+    "location": "Noida/Bangalore/Hyderabad/Kolkata",
+    "type": "SIX_MONTH_INTERN",
+    "salary": "₹50,000/month",
+    "ctc": "N/A",
+    "applicationWindow": "Jul 22, 2026, 12:00:00 PM – Jul 23, 2026, 11:00:00 AM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "procdna-technology-analyst",
+    "title": "Technology Analyst",
+    "company": "ProcDNA",
+    "location": "Gurugram, Pune, Banglore",
+    "type": "SIX_MONTH_INTERN_FTE",
+    "salary": "₹25,000/month",
+    "ctc": "16.74 LPA",
+    "applicationWindow": "Jul 20, 2026, 2:49:05 PM – Jul 20, 2026, 11:59:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "procdna-business-analyst",
+    "title": "Business Analyst",
+    "company": "ProcDNA",
+    "location": "Gurgram, Pune, Banglore",
+    "type": "SIX_MONTH_INTERN_FTE",
+    "salary": "₹25,000/month",
+    "ctc": "16.74 LPA",
+    "applicationWindow": "Jul 20, 2026, 2:39:29 PM – Jul 20, 2026, 11:59:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "eternal-product-analyst",
+    "title": "Product Analyst",
+    "company": "Eternal",
+    "location": "Gurgaon",
+    "type": "FTE",
+    "salary": "N/A",
+    "ctc": "47 LPA",
+    "applicationWindow": "Jul 17, 2026, 4:04:21 PM – Jul 18, 2026, 11:59:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "eternal-ml-engineer",
+    "title": "ML Engineer",
+    "company": "Eternal",
+    "location": "Gurgaon",
+    "type": "FTE",
+    "salary": "N/A",
+    "ctc": "59 LPA",
+    "applicationWindow": "Jul 17, 2026, 4:03:04 PM – Jul 18, 2026, 11:59:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "cred-backend-developer",
+    "title": "Backend Developer",
+    "company": "Cred",
+    "location": "Bengaluru",
+    "type": "SIX_MONTH_INTERN",
+    "salary": "₹1,10,000/month",
+    "ctc": "N/A",
+    "applicationWindow": "Jul 20, 2026, 4:48:53 PM – Jul 22, 2026, 1:40:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  },
+  {
+    "id": "eternal-sde",
+    "title": "SDE",
+    "company": "Eternal",
+    "location": "Gurgaon",
+    "type": "FTE",
+    "salary": "N/A",
+    "ctc": "59 LPA",
+    "applicationWindow": "Jul 17, 2026, 3:35:05 PM – Jul 18, 2026, 11:59:00 PM",
+    "status": "Closed",
+    "scrapedAt": "2026-07-26T12:16:17.137Z"
+  }
+]
