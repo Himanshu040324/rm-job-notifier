@@ -1,0 +1,9 @@
+node_modules/
+
+.env
+
+storageState.json
+
+data/jobs.json
+
+login-failed.png
